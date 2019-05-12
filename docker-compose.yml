@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+
+  api:
+    image: codait/max-facial-recognizer
+    ports:
+      - 5080:5000
